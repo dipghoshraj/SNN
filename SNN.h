@@ -4,5 +4,5 @@
 double SISO(double input, double weight);
 void SIMO(double* weight, double input, double* output_vector, int LABLES_COUNT);
 double MISO(double* weight, double* input, int LEN);
-#endif // !_SISO_H
+#endif // !_SNN_H
 
