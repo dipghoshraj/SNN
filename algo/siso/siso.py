@@ -13,6 +13,6 @@ def siso(input, weight):
     '''
 
     if not isinstance(input, float) or not isinstance(input, float):
-        raise ValueError('input and weight must be floats not ' + str(input) + ' and ' + str(weight))
+        raise ValueError('input and weight must be float value')
     return (input * weight)
     
