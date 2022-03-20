@@ -1,5 +1,7 @@
-import imp
-from algo.siso import siso
+
+import sys
+sys.path.append('E:/deep_learning_algo_version_1')
+from algo import siso
 
 def succeess_test_siso():
     '''
