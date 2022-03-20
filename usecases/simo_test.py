@@ -3,9 +3,9 @@ import sys
 sys.path.append('E:/deep_learning_algo_version_1')
 from algo import simo
 
-def succeess_test_siso():
+def succeess_test_simo():
     '''
-    successfull test for the siso algo
+    successfull test for the simo algo
     '''
 
     input, weight =  2.3, [7.8, 2.3, 4.1]
@@ -13,9 +13,9 @@ def succeess_test_siso():
     print(siso_output)
 
 
-def fails_test_siso():
+def fails_test_simo():
     '''
-    failed test for the siso algo
+    failed test for the simo algo
     '''
     input, weight = 3, 5
     siso_output  = simo(weight, input)
@@ -23,4 +23,4 @@ def fails_test_siso():
 
 
 if __name__ == '__main__':
-    succeess_test_siso()
+    succeess_test_simo()

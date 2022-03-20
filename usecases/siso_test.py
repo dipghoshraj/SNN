@@ -23,4 +23,4 @@ def fails_test_siso():
 
 
 if __name__ == '__main__':
-    fails_test_siso()
+    succeess_test_siso()

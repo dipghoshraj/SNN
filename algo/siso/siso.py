@@ -1,7 +1,7 @@
 # type 1: Single Input single output neural network
 # siso output :  y1 = activition(w1 * i1);
 
-def siso(input, weight):
+def siso(input: float, weight: float):
     '''
     Args:
         input: input value in number.
