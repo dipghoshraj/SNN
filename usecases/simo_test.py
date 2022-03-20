@@ -21,6 +21,5 @@ def fails_test_simo():
     siso_output  = simo(weight, input)
     print(siso_output)
 
-
 if __name__ == '__main__':
     succeess_test_simo()
