@@ -1,8 +1,7 @@
 
 import sys
 sys.path.append('E:/deep_learning_algo_version_1')
-from algo import simo
-
+from algo.simo.simo import simo
 def succeess_test_simo():
     '''
     successfull test for the simo algo

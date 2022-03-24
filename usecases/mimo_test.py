@@ -1,7 +1,6 @@
 import sys
 sys.path.append('E:/deep_learning_algo_version_1')
-from algo import mimo
-
+from algo.mimo.mimo import mimo
 def succeess_test_miso():
     '''
     successfull test for the miso algo

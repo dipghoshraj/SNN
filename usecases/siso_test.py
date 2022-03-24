@@ -1,8 +1,7 @@
 
 import sys
 sys.path.append('E:/deep_learning_algo_version_1')
-from algo import siso
-
+from algo.siso.siso import siso
 def succeess_test_siso():
     '''
     successfull test for the siso algo
