@@ -1,5 +1,7 @@
-import sys
-sys.path.append('E:/deep_learning_algo_version_1')
+import sys, os
+path = os.path.abspath(__file__ + "/../../")
+sys.path.append(path)
+
 from algo.miso.miso import miso
 def succeess_test_miso():
     '''

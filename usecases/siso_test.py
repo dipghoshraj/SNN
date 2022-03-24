@@ -1,5 +1,7 @@
+import sys, os
+path = os.path.abspath(__file__ + "/../../")
+sys.path.append(path)
 
-import sys
 sys.path.append('E:/deep_learning_algo_version_1')
 from algo.siso.siso import siso
 def succeess_test_siso():
